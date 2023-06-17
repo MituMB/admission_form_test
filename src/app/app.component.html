@@ -1,0 +1,44 @@
+<div class="container-fluid">
+  <div class="top w-50 mx-auto">
+    <div class="mb-3 mt-3 row">
+      <label class="col-md-3">School Branch Name:</label>
+      <!-- <input type="email" class="form_control" id="email" placeholder="Enter email" name="email"> -->
+     
+     <div class="col-md-7">
+      <select class="form-select">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+     </div> 
+    </div>
+  </div>
+  <div class="tab_container card p-4">
+    <div class="tab-content pt-4" id="myTabContent">
+      <p-tabView>
+        <p-tabPanel header="Basic Information">
+          <app-basic-information></app-basic-information>
+        </p-tabPanel>
+        <p-tabPanel header="Parents Information">
+          <app-parent-information></app-parent-information>      
+        </p-tabPanel>
+        <p-tabPanel header="Gurdians Information">
+          <!-- <app-guardians-information></app-guardians-information> -->
+        </p-tabPanel>
+        <p-tabPanel header="Sibling Information">
+          <!-- <app-sibling-information></app-sibling-information> -->
+        </p-tabPanel>
+        <p-tabPanel header="Students Previous Institute">
+          <!-- <app-student-information></app-student-information> -->
+        </p-tabPanel>
+        <p-tabPanel header="Health Information">
+          <!-- <app-health-information></app-health-information> -->
+        </p-tabPanel>
+        <p-tabPanel header="For School Admin">
+          <!-- <app-school-admin></app-school-admin> -->
+        </p-tabPanel>
+      </p-tabView>
+    </div>
+  </div>
+</div>

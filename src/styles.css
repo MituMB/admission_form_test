@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+html{
+    /* font-size: 10px; */
+}
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #f6f6f6;
+    font-size: 14px;
+}
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    font-size: 14px;
+    padding: 10px 15px !important;
+}
+.p-component {
+    font-family: 'Roboto',sans-serif !important;
+}
+.tab_container{
+    /* width: fit-content; */
+    margin: 0 auto;
+}
+.tab_header{
+   text-align: center;
+}
+.tab_header h5{
+    display: inline-block;
+    border-bottom-style: double;
+    border-style: double;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-color: green;
+    color: green;
+}
+/* .form-control,.form-select {
+    padding: 0px 6px !important;
+} */
+.form-control,.form-select,
+element.style {
+}
+.form-control,.form-select,.col-form-label{
+    padding: 3px 6px !important;
+    font-size: 14px;
+}
+.form_select{
+width: 35%;
+}
+.sub_title{
+    display: inline-block;
+    font-size: 14px;
+    color: green;
+    padding:5px;
+    margin-bottom: 20px;
+    border-color:green;
+    border-style: double;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+.info_holder .num {
+    /* display: inline; */
+    border: 1px solid green;
+    /* padding: 8px; */
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 100%;
+    /* font-weight: bold; */
+}
+.health-tbl td{
+    padding:0 10px;
+}
